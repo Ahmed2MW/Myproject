@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 velocity = new Vector2(_horizontalMovement, rb.velocity.y);
       
-        rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity , ref velocity, .05f);
+        rb.velocity = Vector3.SmoothDamp(rb.velocity, targetvelocity , ref velocity, .05f);
     }
 }
 
